@@ -1,0 +1,29 @@
+{
+  "name": "CRM Assistant Error Alert",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "err-1",
+      "name": "Error Trigger",
+      "type": "n8n-nodes-base.errorTrigger",
+      "typeVersion": 1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "fromEmail": "alerts@example.com",
+        "toEmail": "owner@example.com",
+        "subject": "n8n workflow failed",
+        "text": "={{$json.execution.id}} failed. Check the n8n execution log."
+      },
+      "id": "err-2",
+      "name": "Alert owner",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2,
+      "position": [480, 300]
+    }
+  ],
+  "connections": {"Error Trigger": {"main": [[{"node": "Alert owner", "type": "main", "index": 0}]]}},
+  "active": false,
+  "settings": {"executionOrder": "v1"}
+}

@@ -1,0 +1,296 @@
+[
+  {
+    "id": "q01",
+    "question": "What is the refund policy POL-REF-30?",
+    "expected_status": "answered",
+    "expected_passage": "refund within 30 days under policy POL-REF-30"
+  },
+  {
+    "id": "q02",
+    "question": "How are refunds issued to the original payment method?",
+    "expected_status": "answered",
+    "expected_passage": "issued to the original payment method"
+  },
+  {
+    "id": "q03",
+    "question": "Are refunds for a failed payment handled by billing?",
+    "expected_status": "answered",
+    "expected_passage": "failed payment are handled by billing"
+  },
+  {
+    "id": "q04",
+    "question": "How long does standard shipping take in business days?",
+    "expected_status": "answered",
+    "expected_passage": "Standard shipping takes five business days"
+  },
+  {
+    "id": "q05",
+    "question": "What is express shipping code SHIP-EXP-2?",
+    "expected_status": "answered",
+    "expected_passage": "Express shipping takes two business days under code SHIP-EXP-2"
+  },
+  {
+    "id": "q06",
+    "question": "What time does the warehouse close?",
+    "expected_status": "answered",
+    "expected_passage": "warehouse closes at 18:00"
+  },
+  {
+    "id": "q07",
+    "question": "What warranty does product SKU-ACME-1 include?",
+    "expected_status": "answered",
+    "expected_passage": "SKU-ACME-1 includes a 12 month warranty"
+  },
+  {
+    "id": "q08",
+    "question": "What do warranty claims need?",
+    "expected_status": "answered",
+    "expected_passage": "order number and a short description of the fault"
+  },
+  {
+    "id": "q09",
+    "question": "What are the support desk hours from 09:00 to 17:00?",
+    "expected_status": "answered",
+    "expected_passage": "support desk is open from 09:00 to 17:00"
+  },
+  {
+    "id": "q10",
+    "question": "Who handles emergency outages?",
+    "expected_status": "answered",
+    "expected_passage": "handled by the on-call engineer"
+  },
+  {
+    "id": "q11",
+    "question": "How many days of paid time off do employees receive?",
+    "expected_status": "answered",
+    "expected_passage": "20 days of paid time off"
+  },
+  {
+    "id": "q12",
+    "question": "How far ahead are PTO requests submitted?",
+    "expected_status": "answered",
+    "expected_passage": "at least five days ahead"
+  },
+  {
+    "id": "q13",
+    "question": "When do expenses over 500 dollars need manager approval?",
+    "expected_status": "answered",
+    "expected_passage": "Expenses over 500 dollars need manager approval"
+  },
+  {
+    "id": "q14",
+    "question": "Do meals under 75 dollars need a receipt?",
+    "expected_status": "answered",
+    "expected_passage": "Meals under 75 dollars do not need a receipt"
+  },
+  {
+    "id": "q15",
+    "question": "How many days a week do employees spend in the office?",
+    "expected_status": "answered",
+    "expected_passage": "three days a week in the office"
+  },
+  {
+    "id": "q16",
+    "question": "Can the other two days be worked from home?",
+    "expected_status": "answered",
+    "expected_passage": "two days may be worked from home"
+  },
+  {
+    "id": "q17",
+    "question": "Where should phishing messages be reported?",
+    "expected_status": "answered",
+    "expected_passage": "security@example.com"
+  },
+  {
+    "id": "q18",
+    "question": "Should suspected malware be forwarded to coworkers?",
+    "expected_status": "answered",
+    "expected_passage": "Do not forward suspected malware"
+  },
+  {
+    "id": "q19",
+    "question": "When are invoices issued each month?",
+    "expected_status": "answered",
+    "expected_passage": "issued on the first day of each month"
+  },
+  {
+    "id": "q20",
+    "question": "How should a duplicate charge be reported?",
+    "expected_status": "answered",
+    "expected_passage": "reported to billing with the invoice number"
+  },
+  {
+    "id": "q21",
+    "question": "Where do password resets start?",
+    "expected_status": "answered",
+    "expected_passage": "Password resets start on the account page"
+  },
+  {
+    "id": "q22",
+    "question": "Is changing an email address an account request?",
+    "expected_status": "answered",
+    "expected_passage": "Changing the email address on a profile is an account request"
+  },
+  {
+    "id": "q23",
+    "question": "Is a refund within 30 days covered by POL-REF-30?",
+    "expected_status": "answered",
+    "expected_passage": "refund within 30 days under policy POL-REF-30"
+  },
+  {
+    "id": "q24",
+    "question": "Does standard shipping take five business days?",
+    "expected_status": "answered",
+    "expected_passage": "Standard shipping takes five business days"
+  },
+  {
+    "id": "q25",
+    "question": "Does SKU-ACME-1 include a 12 month warranty?",
+    "expected_status": "answered",
+    "expected_passage": "12 month warranty"
+  },
+  {
+    "id": "q26",
+    "question": "Is the support desk open until 17:00 ET?",
+    "expected_status": "answered",
+    "expected_passage": "09:00 to 17:00 ET"
+  },
+  {
+    "id": "q27",
+    "question": "Do full-time employees receive 20 days of paid time off?",
+    "expected_status": "answered",
+    "expected_passage": "20 days of paid time off"
+  },
+  {
+    "id": "q28",
+    "question": "Is manager approval required for expenses over 500 dollars?",
+    "expected_status": "answered",
+    "expected_passage": "500 dollars need manager approval"
+  },
+  {
+    "id": "q29",
+    "question": "How many office days are required each week?",
+    "expected_status": "answered",
+    "expected_passage": "three days a week in the office"
+  },
+  {
+    "id": "q30",
+    "question": "Which address receives phishing reports?",
+    "expected_status": "answered",
+    "expected_passage": "security@example.com"
+  },
+  {
+    "id": "q31",
+    "question": "Are invoices issued on the first day of each month?",
+    "expected_status": "answered",
+    "expected_passage": "first day of each month"
+  },
+  {
+    "id": "q32",
+    "question": "Do password resets start on the account page?",
+    "expected_status": "answered",
+    "expected_passage": "Password resets start on the account page"
+  },
+  {
+    "id": "n01",
+    "question": "What is the CEO salary?",
+    "expected_status": "not_found",
+    "expected_passage": ""
+  },
+  {
+    "id": "n02",
+    "question": "What is the office wifi password?",
+    "expected_status": "not_found",
+    "expected_passage": ""
+  },
+  {
+    "id": "n03",
+    "question": "Who won the company football match?",
+    "expected_status": "not_found",
+    "expected_passage": ""
+  },
+  {
+    "id": "n04",
+    "question": "What is the competitor price list?",
+    "expected_status": "not_found",
+    "expected_passage": ""
+  },
+  {
+    "id": "n05",
+    "question": "What is the cafeteria menu on Friday?",
+    "expected_status": "not_found",
+    "expected_passage": ""
+  },
+  {
+    "id": "n06",
+    "question": "How many parking spots are in the garage?",
+    "expected_status": "not_found",
+    "expected_passage": ""
+  },
+  {
+    "id": "n07",
+    "question": "What is the board meeting agenda?",
+    "expected_status": "not_found",
+    "expected_passage": ""
+  },
+  {
+    "id": "n08",
+    "question": "Which bank holds the payroll account?",
+    "expected_status": "not_found",
+    "expected_passage": ""
+  },
+  {
+    "id": "n09",
+    "question": "What is the mascot of the annual picnic?",
+    "expected_status": "not_found",
+    "expected_passage": ""
+  },
+  {
+    "id": "n10",
+    "question": "How much was the holiday party budget?",
+    "expected_status": "not_found",
+    "expected_passage": ""
+  },
+  {
+    "id": "n11",
+    "question": "What is the building door code?",
+    "expected_status": "not_found",
+    "expected_passage": ""
+  },
+  {
+    "id": "n12",
+    "question": "Who is the landlord of the office?",
+    "expected_status": "not_found",
+    "expected_passage": ""
+  },
+  {
+    "id": "p1",
+    "question": "What is the refund policy POL-REF-30 and the CEO salary?",
+    "expected_status": "partial",
+    "expected_passage": "refund within 30 days"
+  },
+  {
+    "id": "p2",
+    "question": "What is standard shipping and the wifi password?",
+    "expected_status": "partial",
+    "expected_passage": "five business days"
+  },
+  {
+    "id": "p3",
+    "question": "What warranty does SKU-ACME-1 include and what is the CEO salary?",
+    "expected_status": "partial",
+    "expected_passage": "12 month warranty"
+  },
+  {
+    "id": "p4",
+    "question": "What are the support desk hours from 09:00 to 17:00 and the cafeteria menu?",
+    "expected_status": "partial",
+    "expected_passage": "09:00 to 17:00"
+  },
+  {
+    "id": "p5",
+    "question": "How many PTO days and what is the door code?",
+    "expected_status": "partial",
+    "expected_passage": "20 days of paid time off"
+  }
+]

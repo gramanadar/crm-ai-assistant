@@ -1,0 +1,79 @@
+{
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "confusion": {
+    "billing": {
+      "billing": 2,
+      "technical": 0,
+      "account": 0,
+      "sales": 0,
+      "other": 0
+    },
+    "technical": {
+      "billing": 0,
+      "technical": 2,
+      "account": 0,
+      "sales": 0,
+      "other": 0
+    },
+    "account": {
+      "billing": 0,
+      "technical": 0,
+      "account": 2,
+      "sales": 0,
+      "other": 0
+    },
+    "sales": {
+      "billing": 0,
+      "technical": 0,
+      "account": 0,
+      "sales": 2,
+      "other": 0
+    },
+    "other": {
+      "billing": 0,
+      "technical": 0,
+      "account": 0,
+      "sales": 0,
+      "other": 2
+    }
+  },
+  "tradeoff_curve": [
+    {
+      "threshold": 0.5,
+      "review_rate": 0.2,
+      "auto_accuracy": 1.0
+    },
+    {
+      "threshold": 0.6,
+      "review_rate": 0.2,
+      "auto_accuracy": 1.0
+    },
+    {
+      "threshold": 0.7,
+      "review_rate": 0.7,
+      "auto_accuracy": 1.0
+    },
+    {
+      "threshold": 0.75,
+      "review_rate": 0.7,
+      "auto_accuracy": 1.0
+    },
+    {
+      "threshold": 0.8,
+      "review_rate": 1.0,
+      "auto_accuracy": null
+    },
+    {
+      "threshold": 0.9,
+      "review_rate": 1.0,
+      "auto_accuracy": null
+    }
+  ],
+  "chosen_threshold": 0.75,
+  "test_size": 10,
+  "delta_vs_previous": {
+    "accuracy": 0.2,
+    "macro_f1": 0.22
+  }
+}

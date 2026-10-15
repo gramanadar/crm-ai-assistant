@@ -1,0 +1,48 @@
+{
+  "name": "CRM Assistant Events",
+  "nodes": [
+    {
+      "parameters": {"httpMethod": "POST", "path": "assistant-events", "options": {}},
+      "id": "8f0c0a1a-1b2c-4d3e-9f00-111111111111",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [240, 300],
+      "webhookId": "assistant-events"
+    },
+    {
+      "parameters": {
+        "jsCode": "const crypto = require('crypto');\nconst secret = $env.N8N_SIGNING_SECRET || '';\nconst timestamp = $json.headers['x-timestamp'] || '';\nconst signature = $json.headers['x-signature'] || '';\nconst body = JSON.stringify($json.body);\nconst age = Math.abs(Math.floor(Date.now() / 1000) - Number(timestamp));\nif (!timestamp || age > 300) { throw new Error('stale timestamp'); }\nconst expected = 'sha256=' + crypto.createHmac('sha256', secret).update(timestamp + '.POST./webhook/assistant-events.' + body).digest('hex');\nif (expected !== signature) { throw new Error('bad signature'); }\nreturn [{ json: $json.body }];"
+      },
+      "id": "8f0c0a1a-1b2c-4d3e-9f00-222222222222",
+      "name": "Verify signature",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [480, 300]
+    },
+    {
+      "parameters": {"rules": {"values": [{"conditions": {"string": [{"value1": "={{$json.type}}", "value2": "request.classified"}]}}, {"conditions": {"string": [{"value1": "={{$json.type}}", "value2": "action.approved"}]}}, {"conditions": {"string": [{"value1": "={{$json.type}}", "value2": "action.completed"}]}}, {"conditions": {"string": [{"value1": "={{$json.type}}", "value2": "action.failed"}]}}]}},
+      "id": "8f0c0a1a-1b2c-4d3e-9f00-333333333333",
+      "name": "Switch event",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3,
+      "position": [720, 300]
+    },
+    {
+      "parameters": {"method": "POST", "url": "={{$env.BACKEND_URL}}/v1/actions/{{$json.data.action_id}}/execute", "options": {}},
+      "id": "8f0c0a1a-1b2c-4d3e-9f00-444444444444",
+      "name": "Execute approved action",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [980, 420]
+    }
+  ],
+  "connections": {
+    "Webhook": {"main": [[{"node": "Verify signature", "type": "main", "index": 0}]]},
+    "Verify signature": {"main": [[{"node": "Switch event", "type": "main", "index": 0}]]},
+    "Switch event": {"main": [[], [{"node": "Execute approved action", "type": "main", "index": 0}]]}
+  },
+  "active": false,
+  "settings": {"executionOrder": "v1"},
+  "pinData": {}
+}

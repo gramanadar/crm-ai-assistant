@@ -1,0 +1,12 @@
+[
+  {"text": "The card statement shows a second charge for the same month.", "category": "billing"},
+  {"text": "Please void invoice 88411.", "category": "billing"},
+  {"text": "Checkout returns an error code after I click pay, and the page crashes.", "category": "technical"},
+  {"text": "The status page shows an outage for the API.", "category": "technical"},
+  {"text": "Remove my teammate from the company account.", "category": "account"},
+  {"text": "I need the legal name on the account profile changed.", "category": "account"},
+  {"text": "Send a quote for the enterprise tier.", "category": "sales"},
+  {"text": "Can your team schedule a demo next Tuesday?", "category": "sales"},
+  {"text": "What time does the cafeteria open?", "category": "other"},
+  {"text": "Thanks, that solved it.", "category": "other"}
+]
