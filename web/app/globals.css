@@ -1,0 +1,44 @@
+:root {
+  --ink: #14233b;
+  --muted: #52647b;
+  --navy: #0b1830;
+  --blue: #2459b8;
+  --teal: #008f82;
+  --line: #dce4ee;
+  --bg: #f4f7fb;
+  --red: #b42318;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 "Segoe UI", sans-serif; }
+a { color: inherit; text-decoration: none; }
+header.top { display: flex; justify-content: space-between; gap: 16px; align-items: center; background: var(--navy); color: white; padding: 16px 28px; }
+header.top strong { font-size: 16px; }
+nav { display: flex; gap: 8px; flex-wrap: wrap; }
+nav a { color: #d6e3f4; padding: 6px 10px; border-radius: 8px; }
+nav a.active, nav a:hover { background: #173b6a; color: white; }
+main { max-width: 980px; margin: 0 auto; padding: 28px 20px 64px; }
+h1 { font-size: 28px; margin: 0 0 8px; }
+.lede { color: var(--muted); margin-top: 0; }
+.card { background: white; border: 1px solid var(--line); border-radius: 14px; padding: 18px; margin: 14px 0; }
+label { display: block; font-weight: 650; margin-bottom: 6px; }
+textarea, input, select { width: 100%; border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; font: inherit; }
+button { background: var(--blue); color: white; border: 0; border-radius: 10px; padding: 10px 14px; font-weight: 700; cursor: pointer; }
+button.secondary { background: white; color: var(--ink); border: 1px solid var(--line); }
+button.danger { background: var(--red); }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.row input, .row select { width: auto; min-width: 140px; }
+.stack { display: grid; gap: 8px; margin-top: 10px; }
+.badge { display: inline-block; border-radius: 999px; padding: 3px 10px; font-size: 12px; font-weight: 750; text-transform: uppercase; }
+.answered { background: #e4f4f1; color: #006e63; }
+.partial { background: #fff1dc; color: #8a4b00; }
+.not_found, .failed, .review { background: #fde8e6; color: var(--red); }
+.routed, .SUCCEEDED, .ready { background: #e4f4f1; color: #006e63; }
+.chip { position: relative; display: inline-block; background: #edf3fa; border-radius: 999px; padding: 4px 10px; margin: 4px 6px 0 0; }
+.chip .tip { display: none; position: absolute; left: 0; top: 28px; width: 320px; background: var(--navy); color: white; padding: 10px; border-radius: 10px; z-index: 2; font-weight: 400; }
+.chip:hover .tip { display: block; }
+.error { color: var(--red); }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; border-bottom: 1px solid var(--line); padding: 8px; vertical-align: top; }
+.roles button { background: transparent; color: #d6e3f4; border: 1px solid #35527e; }
+.roles button.on { background: var(--teal); color: white; border-color: var(--teal); }
+pre { white-space: pre-wrap; background: #f7fafe; padding: 10px; border-radius: 8px; }

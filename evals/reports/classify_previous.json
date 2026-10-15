@@ -1,0 +1,5 @@
+{
+  "accuracy": 0.8,
+  "macro_f1": 0.78,
+  "note": "Placeholder baseline so a second run can name a delta. Replace with the client's first measured report."
+}

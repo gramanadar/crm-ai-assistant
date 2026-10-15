@@ -1,0 +1,304 @@
+{
+  "questions": 49,
+  "retrieval_hit_rate": 1.0,
+  "answer_correctness": 1.0,
+  "citation_accuracy": 1.0,
+  "refusal_accuracy": 1.0,
+  "rows": [
+    {
+      "id": "q01",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q02",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q03",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q04",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q05",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q06",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q07",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q08",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q09",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q10",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q11",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q12",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q13",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q14",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q15",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q16",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q17",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q18",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q19",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q20",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q21",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q22",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q23",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q24",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q25",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q26",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q27",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q28",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q29",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q30",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q31",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "q32",
+      "expected": "answered",
+      "actual": "answered",
+      "hit": true
+    },
+    {
+      "id": "n01",
+      "expected": "not_found",
+      "actual": "not_found",
+      "hit": false
+    },
+    {
+      "id": "n02",
+      "expected": "not_found",
+      "actual": "not_found",
+      "hit": false
+    },
+    {
+      "id": "n03",
+      "expected": "not_found",
+      "actual": "not_found",
+      "hit": false
+    },
+    {
+      "id": "n04",
+      "expected": "not_found",
+      "actual": "not_found",
+      "hit": false
+    },
+    {
+      "id": "n05",
+      "expected": "not_found",
+      "actual": "not_found",
+      "hit": false
+    },
+    {
+      "id": "n06",
+      "expected": "not_found",
+      "actual": "not_found",
+      "hit": false
+    },
+    {
+      "id": "n07",
+      "expected": "not_found",
+      "actual": "not_found",
+      "hit": false
+    },
+    {
+      "id": "n08",
+      "expected": "not_found",
+      "actual": "not_found",
+      "hit": false
+    },
+    {
+      "id": "n09",
+      "expected": "not_found",
+      "actual": "not_found",
+      "hit": false
+    },
+    {
+      "id": "n10",
+      "expected": "not_found",
+      "actual": "not_found",
+      "hit": false
+    },
+    {
+      "id": "n11",
+      "expected": "not_found",
+      "actual": "not_found",
+      "hit": false
+    },
+    {
+      "id": "n12",
+      "expected": "not_found",
+      "actual": "not_found",
+      "hit": false
+    },
+    {
+      "id": "p1",
+      "expected": "partial",
+      "actual": "partial",
+      "hit": true
+    },
+    {
+      "id": "p2",
+      "expected": "partial",
+      "actual": "partial",
+      "hit": true
+    },
+    {
+      "id": "p3",
+      "expected": "partial",
+      "actual": "partial",
+      "hit": true
+    },
+    {
+      "id": "p4",
+      "expected": "partial",
+      "actual": "partial",
+      "hit": true
+    },
+    {
+      "id": "p5",
+      "expected": "partial",
+      "actual": "partial",
+      "hit": true
+    }
+  ],
+  "grader": "status-and-passage rubric; set LLM_PROVIDER to grade with a live model"
+}

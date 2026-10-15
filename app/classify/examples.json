@@ -1,0 +1,14 @@
+[
+  {"text": "Please refund order 10021. The payment went through twice.", "category": "billing"},
+  {"text": "I was charged for a failed payment and need the invoice corrected.", "category": "billing"},
+  {"text": "Can you resend last month's receipt?", "category": "billing"},
+  {"text": "The mobile app crashes when I open settings.", "category": "technical"},
+  {"text": "Our API returns a 500 on the orders endpoint.", "category": "technical"},
+  {"text": "I cannot reset my password because the reset page errors.", "category": "technical"},
+  {"text": "Please update the email address on my account.", "category": "account"},
+  {"text": "I want to close my account and download my profile.", "category": "account"},
+  {"text": "How do I add a teammate to the account?", "category": "account"},
+  {"text": "Can we get a quote for 40 seats?", "category": "sales"},
+  {"text": "I'd like a demo before we purchase the annual plan.", "category": "sales"},
+  {"text": "What is the pricing to upgrade from Starter?", "category": "sales"}
+]
